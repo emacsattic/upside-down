@@ -7,7 +7,7 @@
 ;; Keywords: extensions
 ;; Created: 2008-10-14
 
-;; $Id: upside-down.el,v 1.2 2009/05/13 04:35:08 friedman Exp $
+;; $Id: upside-down.el,v 1.3 2012/08/05 02:35:17 friedman Exp $
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -20,9 +20,7 @@
 ;; GNU General Public License for more details.
 ;;
 ;; You should have received a copy of the GNU General Public License
-;; along with this program; if not, you can either send email to this
-;; program's maintainer or write to: The Free Software Foundation,
-;; Inc.; 51 Franklin Street, Fifth Floor; Boston, MA 02110-1301, USA.
+;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ;;; Commentary:
 
@@ -155,5 +153,7 @@ vector-like data structures."
              (setq i (1+ i)
                    l (1- l))))
          seq)))
+
+(provide 'upside-down)
 
 ;; upside-down.el ends here
